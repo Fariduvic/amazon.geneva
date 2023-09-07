@@ -1,0 +1,140 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  right: 0;
+  left: 0;
+  font-family: Roboto, Arial;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+.amazon-logo {
+  cursor: pointer;
+  position: relative;
+}
+.amazon-logo:hover {
+  border: solid 1px white;
+}
+.amazon-logo-image {
+  width: 110px;
+}
+.swiss-short {
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 0;
+  right: -45px;
+}
+.middle-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.search {
+  display: flex;
+}
+.search-bar {
+  height: 40px;
+  width: 0;
+  min-width: 0;
+  max-width: 800px;
+  flex: 1;
+  margin-left: 27px;
+  border: none;
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-left: 10px;
+}
+.search-bar::placeholder {
+  font-size: 15px;
+}
+.search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(254, 189, 105);
+  vertical-align: top;
+  border: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.search-icon {
+  height: 26px;
+}
+.right-section {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+.returns-and-orders {
+  background-color: black;
+  color: white;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  padding: 6px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  vertical-align: top;
+}
+.returns-and-orders:hover {
+  border: solid 0.8px white;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+.returns-text {
+  display: block;
+  font-size: 13px;
+}
+.orders-text {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+}
+.cart {
+  background-color: black;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  cursor: pointer;
+  vertical-align: top;
+}
+.cart:hover {
+  border: solid 0.8px white;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.cart-icon {
+  height: 36px;
+}
+.cart-text {
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 15px;
+  display: block;
+}
